@@ -1,7 +1,7 @@
 [theme]
-primaryColor = "#7CB342"          # verde principal (botones, sliders, etc.)
+primaryColor = "#92C184"          # verde principal (botones, sliders, etc.)
 backgroundColor = "#0B1116"       # fondo de la app
-secondaryBackgroundColor = "#141A1F"  # fondo de tarjetas / sidebar
+secondaryBackgroundColor = "#656D4A"  # fondo de tarjetas / sidebar
 textColor = "#FFFFFF"             # color del texto
 font = "sans serif"               # fuente básica
 
