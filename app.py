@@ -6,7 +6,7 @@ import math
 
 # --- Configuración de conexión ---
 INFLUXDB_URL = "https://us-east-1-1.aws.cloud2.influxdata.com"
-INFLUXDB_TOKEN = "TU_TOKEN_AQUI"  # ⚠️ No subir el token real a GitHub
+INFLUXDB_TOKEN = "JcKXoXE30JQvV9Ggb4-zv6sQc0Zh6B6Haz5eMRW0FrJEduG2KcFJN9-7RoYvVORcFgtrHR-Q_ly-52pD7IC6JQ=="  # ⚠️ No subir el token real a GitHub
 INFLUXDB_ORG = "0925ccf91ab36478"
 INFLUXDB_BUCKET = "EXTREME_MANUFACTURING"
 
