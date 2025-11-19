@@ -18,7 +18,7 @@ query_api = client.query_api()
 
 # --- Sidebar ---
 with st.sidebar:
-    st.title("Umi 🌱")
+    st.title("Selecciona el sensor")
     st.caption("Monitoreo de tu cultivo en casa")
 
     sensor = st.selectbox("Sensor:", ["DHT22", "MPU6050"])
@@ -31,7 +31,7 @@ if start <= stop:
     start, stop = stop, start
 
 # --- Título principal ---
-st.title("Panel de datos de tu cultivo")
+st.title("Umi🌱")
 st.write("Visualización de temperatura, humedad y movimiento a partir de InfluxDB.")
 
 # --- Query según sensor ---
@@ -122,7 +122,8 @@ for var in df["Variable"].unique():
         x="Tiempo",
         y="Valor",
         title=var,
-        template="plotly_dark"  # combina con tema oscuro si lo usas
+        template="plotly_dark"  
+        color_discrete_sequence=["#656D4A"]
     )
     st.plotly_chart(fig, use_container_width=True)
 
