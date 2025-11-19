@@ -122,7 +122,7 @@ for var in df["Variable"].unique():
         x="Tiempo",
         y="Valor",
         title=var,
-        template="plotly_dark"  
+        template="plotly_dark",  
         color_discrete_sequence=["#656D4A"]
     )
     st.plotly_chart(fig, use_container_width=True)
