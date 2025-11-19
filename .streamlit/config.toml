@@ -1,6 +1,6 @@
 [theme]
-primaryColor = "#A4AC86"              # Verde suave, botones / sliders
+primaryColor = "#DFEFDA"              # Verde suave, botones / sliders
 backgroundColor = "#F8F5EE"           # Fondo claro tipo beige
-secondaryBackgroundColor = "#C2C5AA"  # Fondo de contenedores / cards
-textColor = "#ffffff"                 # Texto oscuro natural
+secondaryBackgroundColor = "#656D4A"  # Fondo de contenedores / cards
+textColor = "#000000"                 # Texto oscuro natural
 font = "sans serif"
